@@ -126,8 +126,8 @@ const Navbar = () => {
             </Link>
             */}
 
-            <Link href="/mint">
-              <NavItem active={router.pathname == '/mint'}>Mint</NavItem>
+            <Link href="/genesis">
+              <NavItem active={router.pathname == '/genesis'}>Genesis</NavItem>
             </Link>
 
             {/*

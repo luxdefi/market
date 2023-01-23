@@ -22,7 +22,7 @@ import { COLLECTION_SET_ID, COMMUNITY } from 'pages/_app'
 
 import IFrame from 'react-iframe'
 
-const MintPage: NextPage = () => {
+const GenesisPage: NextPage = () => {
   const { address, isConnected } = useAccount()
   const isSmallDevice = useMediaQuery({ maxWidth: 905 })
   const isMounted = useMounted()
@@ -58,4 +58,4 @@ const MintPage: NextPage = () => {
   )
 }
 
-export default MintPage
+export default GenesisPage
